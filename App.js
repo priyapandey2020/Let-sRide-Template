@@ -2,8 +2,10 @@ import React from 'react';
 import { StyleSheet, Text, View, Image } from 'react-native';
 import {createAppContainer} from 'react-navigation';
 import {createBottomTabNavigator} from 'react-navigation-tabs' 
-import WriteComplaint from './screens/WriteComplaint'
-import ReadComplaint from './screens/ReadComplaint'
+
+import TransactionScreen from './screens/CycleTransactionScreen';
+import SearchScreen from './screens/SearchScreen';
+
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 
 export default class App extends React.Component {
